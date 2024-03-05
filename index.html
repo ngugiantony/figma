@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>figma design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+     .button {
+      display: block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+    }
+
+    p{
+    	margin-top: 20px;
+    }
+   
+
+    .column {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    @media (min-width: 568px) {
+      .column {
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="column">
+      <img src="test.jpg" width="100%">
+      </div>
+      <div class="column">
+       <div class="div-main">
+       	<h2>One line long header example for web</h2>
+        <p>So you’re trying to surf a site like myspace, hotmail or yahoo mail from work or school and its blocked</p>
+
+        <button class="button">Button</button>
+       </div>
+      </div>
+    </div>
+
+     <div class="row">
+      <p>PARTNER</p>
+
+       <img src="logos.jpg" width="100%">
+      </div>
+  </div>
+
+</body>
+</html>
